@@ -1,0 +1,35 @@
+Comandos básicos
+
+git init                          : Cria um repositório Git na pasta atual;
+git status                        : Mostra arquivos modificados, novos e preparados para commit;
+git add arquivo.txt               : Adiciona um arquivo específico para o próximo commit;
+git add .                         : Adiciona todas as alterações para o próximo commit;
+git commit -m "mensagem"          : Cria um commit com uma descrição;
+git log                           : Exibe o histórico completo de commits;
+git log --oneline                 : Exibe o histórico resumido em uma linha por commit;
+git diff                          : Mostra alterações ainda não commitadas;
+git branch                        : Lista as branches existentes;
+git branch nova-branch            : Cria uma nova branch;
+git checkout nova-branch          : Troca para outra branch;
+git switch nova-branch            : Troca para outra branch (comando mais moderno);
+git checkout -b nova-branch       : Cria e troca para uma nova branch;
+git switch -c nova-branch         : Cria e troca para uma nova branch (moderno);
+git branch -d branch              : Deleta uma branch local;
+git branch -D branch              : Força a exclusão de uma branch local;
+git merge branch                  : Mescla uma branch na branch atual;
+git remote -v                     : Exibe os repositórios remotos configurados;
+git remote add origin URL         : Associa o repositório local a um remoto;
+git clone URL                     : Clona um repositório existente;
+git fetch                         : Baixa atualizações do remoto sem aplicar alterações;
+git pull                          : Baixa e aplica alterações do repositório remoto;
+git push                          : Envia commits para o repositório remoto;
+git push -u origin main           : Primeiro envio da branch main para o remoto;
+git rm arquivo.txt                : Remove um arquivo do Git e do diretório;
+git mv antigo novo                : Renomeia ou move um arquivo;
+git restore arquivo.txt           : Descarta alterações locais em um arquivo;
+git restore --staged arquivo.txt  : Remove arquivo da área de staging;
+git reset --hard HEAD             : Descarta todas as alterações locais;
+git config --list                 : Exibe as configurações do Git;
+git config user.name              : Exibe o usuário configurado;
+git config user.email             : Exibe o e-mail configurado;
+ssh -T git@github.com             : Testa a autenticação SSH com o GitHub;
